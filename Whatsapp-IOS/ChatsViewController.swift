@@ -57,6 +57,18 @@ class ChatsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let addButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: nil)
         self.navigationItem.leftBarButtonItem = addButton
         
+        //create a new button
+        let button = UIButton(type: .custom)
+        //set image for button
+        button.setImage(UIImage(named: "icons8-create-20.png")?.withTintColor(UIColor.systemBlue), for: .normal)
+        //set frame
+        button.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+
+        let barButton = UIBarButtonItem(customView: button)
+        //assign button to navigationbar
+        
+        self.navigationItem.rightBarButtonItem = barButton
+        
         //set border of UIView
         myHeaderView.layer.borderWidth = 0.25
         myHeaderView.layer.borderColor = UIColor.lightGray.cgColor
