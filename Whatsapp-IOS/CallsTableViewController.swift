@@ -13,14 +13,14 @@ class CallsTableViewController: UITableViewController {
     //Array
     let users = [
         (photo: "corgi.jpg", name: "Fidel Lim", callIcon: "icons8-phone-30.png", callType: "Outgoing", time: "10:50 am"),
-        (photo: "golden.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "10/10/2019"),
-        (photo: "pug.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "10/10/2019"),
-        (photo: "corgi.jpg", name: "Fidel Lim", callIcon: "icons8-phone-30.png", callType: "Outgoing", time: "10:50 am"),
-        (photo: "golden.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "10/10/2019"),
-        (photo: "pug.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "10/10/2019"),
-        (photo: "corgi.jpg", name: "Fidel Lim", callIcon: "icons8-phone-30.png", callType: "Outgoing", time: "10:50 am"),
-        (photo: "golden.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "10/10/2019"),
-        (photo: "pug.jpg", name: "Fidel Lim", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "10/10/2019"),
+        (photo: "golden.jpg", name: "Messi", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "10/10/2019"),
+        (photo: "pug.jpg", name: "Steph UOWD", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "09/10/2019"),
+        (photo: "corgi.jpg", name: "Unkown", callIcon: "icons8-phone-30.png", callType: "Outgoing", time: "09/10/2019"),
+        (photo: "golden.jpg", name: "Blocked", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "09/10/2019"),
+        (photo: "pug.jpg", name: "Sojuuuuu~", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "08/10/2019"),
+        (photo: "corgi.jpg", name: "Sake", callIcon: "icons8-phone-30.png", callType: "Outgoing", time: "05/10/2019"),
+        (photo: "golden.jpg", name: "Humaid Khan", callIcon: "icons8-video-call-30.png", callType: "Outgoing", time: "05/10/2019"),
+        (photo: "pug.jpg", name: "Who are You", callIcon: "icons8-video-call-30.png", callType: "Missed", time: "02/10/2019"),
     ]
     
     //set nav title to large heading

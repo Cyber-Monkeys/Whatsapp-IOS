@@ -16,7 +16,8 @@
 		FAFA74C423A75FD600A301B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA74C223A75FD600A301B3 /* LaunchScreen.storyboard */; };
 		FAFA74CE23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */; };
 		FAFA74D223A79DC800A301B3 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */; };
-		FAFA74D423A7A13700A301B3 /* corgi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFA74D323A7A13700A301B3 /* corgi.jpg */; };
+		FAFA74D823A80AAC00A301B3 /* CallsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */; };
+		FAFA74DA23A8119E00A301B3 /* CallsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		FAFA74C523A75FD600A301B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
-		FAFA74D323A7A13700A301B3 /* corgi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi.jpg; sourceTree = "<group>"; };
+		FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewController.swift; sourceTree = "<group>"; };
+		FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +70,11 @@
 				FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */,
 				FAFA74B823A75FD100A301B3 /* ViewController.swift */,
 				FAFA74BA23A75FD100A301B3 /* Main.storyboard */,
+				FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */,
+				FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */,
 				FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */,
 				FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */,
 				FAFA74C023A75FD600A301B3 /* Assets.xcassets */,
-				FAFA74D323A7A13700A301B3 /* corgi.jpg */,
 				FAFA74C223A75FD600A301B3 /* LaunchScreen.storyboard */,
 				FAFA74C523A75FD600A301B3 /* Info.plist */,
 				FAFA74BD23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld */,
@@ -137,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA74D423A7A13700A301B3 /* corgi.jpg in Resources */,
 				FAFA74C423A75FD600A301B3 /* LaunchScreen.storyboard in Resources */,
 				FAFA74C123A75FD600A301B3 /* Assets.xcassets in Resources */,
 				FAFA74BC23A75FD100A301B3 /* Main.storyboard in Resources */,
@@ -154,7 +156,9 @@
 				FAFA74B923A75FD100A301B3 /* ViewController.swift in Sources */,
 				FAFA74B523A75FD100A301B3 /* AppDelegate.swift in Sources */,
 				FAFA74CE23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift in Sources */,
+				FAFA74D823A80AAC00A301B3 /* CallsTableViewController.swift in Sources */,
 				FAFA74B723A75FD100A301B3 /* SceneDelegate.swift in Sources */,
+				FAFA74DA23A8119E00A301B3 /* CallsTableViewCell.swift in Sources */,
 				FAFA74D223A79DC800A301B3 /* ChatsViewController.swift in Sources */,
 				FAFA74BF23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld in Sources */,
 			);
