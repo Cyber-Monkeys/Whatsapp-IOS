@@ -140,16 +140,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Re-0V-61p"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Chats" id="Nei-xY-86A">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="UK1-DL-rH2">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X9r-pR-tvN">
-                                <rect key="frame" x="280" y="0.0" width="114" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="icons8-create-30"/>
-                            </button>
-                            <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Chats" id="Nei-xY-86A"/>
                     <connections>
                         <outlet property="myHeaderView" destination="bed-K2-8RO" id="8WK-cx-psN"/>
                     </connections>
@@ -234,7 +225,6 @@
     <resources>
         <image name="icons8-camera-30" width="30" height="30"/>
         <image name="icons8-chat-30" width="30" height="30"/>
-        <image name="icons8-create-30" width="30" height="30"/>
         <image name="icons8-inactive-state-30" width="30" height="30"/>
         <image name="icons8-phone-30" width="30" height="30"/>
         <image name="icons8-settings-30" width="30" height="30"/>
