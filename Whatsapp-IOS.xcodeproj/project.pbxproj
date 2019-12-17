@@ -14,10 +14,14 @@
 		FAFA74BF23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74BD23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld */; };
 		FAFA74C123A75FD600A301B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA74C023A75FD600A301B3 /* Assets.xcassets */; };
 		FAFA74C423A75FD600A301B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA74C223A75FD600A301B3 /* LaunchScreen.storyboard */; };
+		FAFA74CE23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */; };
+		FAFA74D223A79DC800A301B3 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */; };
+		FAFA74D823A80AAC00A301B3 /* CallsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */; };
+		FAFA74DA23A8119E00A301B3 /* CallsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FAFA74B123A75FD100A301B3 /* Whatsapp-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatsapp-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA74B123A75FD100A301B3 /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA74B423A75FD100A301B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAFA74B823A75FD100A301B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		FAFA74C023A75FD600A301B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFA74C323A75FD600A301B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFA74C523A75FD600A301B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewController.swift; sourceTree = "<group>"; };
+		FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,7 @@
 		FAFA74B223A75FD100A301B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA74B123A75FD100A301B3 /* Whatsapp-IOS.app */,
+				FAFA74B123A75FD100A301B3 /* WhatsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +70,10 @@
 				FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */,
 				FAFA74B823A75FD100A301B3 /* ViewController.swift */,
 				FAFA74BA23A75FD100A301B3 /* Main.storyboard */,
+				FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */,
+				FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */,
+				FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */,
+				FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */,
 				FAFA74C023A75FD600A301B3 /* Assets.xcassets */,
 				FAFA74C223A75FD600A301B3 /* LaunchScreen.storyboard */,
 				FAFA74C523A75FD600A301B3 /* Info.plist */,
@@ -87,7 +99,7 @@
 			);
 			name = "Whatsapp-IOS";
 			productName = "Whatsapp-IOS";
-			productReference = FAFA74B123A75FD100A301B3 /* Whatsapp-IOS.app */;
+			productReference = FAFA74B123A75FD100A301B3 /* WhatsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +155,11 @@
 			files = (
 				FAFA74B923A75FD100A301B3 /* ViewController.swift in Sources */,
 				FAFA74B523A75FD100A301B3 /* AppDelegate.swift in Sources */,
+				FAFA74CE23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift in Sources */,
+				FAFA74D823A80AAC00A301B3 /* CallsTableViewController.swift in Sources */,
 				FAFA74B723A75FD100A301B3 /* SceneDelegate.swift in Sources */,
+				FAFA74DA23A8119E00A301B3 /* CallsTableViewCell.swift in Sources */,
+				FAFA74D223A79DC800A301B3 /* ChatsViewController.swift in Sources */,
 				FAFA74BF23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cybermonkeys.Whatsapp-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WhatsApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cybermonkeys.Whatsapp-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WhatsApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
