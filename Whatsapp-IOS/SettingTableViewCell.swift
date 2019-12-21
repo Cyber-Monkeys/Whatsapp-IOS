@@ -1,25 +1,27 @@
 //
-//  ChatsViewControllerTableViewCell.swift
+//  SettingTableViewCell.swift
 //  Whatsapp-IOS
 //
-//  Created by Fidel Lim on 12/16/19.
+//  Created by Amad Khan on 19/12/2019.
 //  Copyright © 2019 cybermonkeys. All rights reserved.
 //
 
 import UIKit
 
-class ChatsViewControllerTableViewCell: UITableViewCell {
+class SettingTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var myMessage: UILabel!
-    @IBOutlet weak var myDate: UILabel!
-    @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var settingsImageView: UIImageView!
     
+    @IBAction func SettingsButtonPressed(_ sender: Any) {
+    }
+    @IBOutlet weak var SettingsTextLabel: UILabel!
+    
+    
+    @IBAction func SettingsSelected(_ sender: Any) {
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
-        myImage.layer.cornerRadius = myImage.frame.size.width/2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -27,6 +29,5 @@ class ChatsViewControllerTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 
 }
