@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6A9219B21DAEAE500180FDC /* SettingsProfileCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9219A21DAEAE500180FDC /* SettingsProfileCellTableViewCell.swift */; };
+		C6A921C723AE650400180FDC /* ChatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A921C623AE650400180FDC /* ChatPageViewController.swift */; };
+		C6B3260923AE9662006A1CFC /* StatusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3260823AE9662006A1CFC /* StatusableViewController.swift */; };
+		C6CF816C23AB94A5008793C1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF816B23AB94A5008793C1 /* SettingsTableViewController.swift */; };
+		C6CF816E23AB99D6008793C1 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF816D23AB99D6008793C1 /* SettingTableViewCell.swift */; };
 		FAFA74B523A75FD100A301B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74B423A75FD100A301B3 /* AppDelegate.swift */; };
 		FAFA74B723A75FD100A301B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */; };
 		FAFA74B923A75FD100A301B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA74B823A75FD100A301B3 /* ViewController.swift */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6A9219A21DAEAE500180FDC /* SettingsProfileCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCellTableViewCell.swift; sourceTree = "<group>"; };
+		C6A921C623AE650400180FDC /* ChatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageViewController.swift; sourceTree = "<group>"; };
+		C6B3260823AE9662006A1CFC /* StatusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusableViewController.swift; sourceTree = "<group>"; };
+		C6CF816B23AB94A5008793C1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		C6CF816D23AB99D6008793C1 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		FAFA74B123A75FD100A301B3 /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA74B423A75FD100A301B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,8 +80,13 @@
 				FAFA74B623A75FD100A301B3 /* SceneDelegate.swift */,
 				FAFA74B823A75FD100A301B3 /* ViewController.swift */,
 				FAFA74BA23A75FD100A301B3 /* Main.storyboard */,
+				C6B3260823AE9662006A1CFC /* StatusableViewController.swift */,
+				C6A921C623AE650400180FDC /* ChatPageViewController.swift */,
+				C6CF816B23AB94A5008793C1 /* SettingsTableViewController.swift */,
+				C6CF816D23AB99D6008793C1 /* SettingTableViewCell.swift */,
 				FAFA74D723A80AAC00A301B3 /* CallsTableViewController.swift */,
 				FAFA74D923A8119E00A301B3 /* CallsTableViewCell.swift */,
+				C6A9219A21DAEAE500180FDC /* SettingsProfileCellTableViewCell.swift */,
 				FAFA74CD23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift */,
 				FAFA74D123A79DC800A301B3 /* ChatsViewController.swift */,
 				FAFA74C023A75FD600A301B3 /* Assets.xcassets */,
@@ -154,13 +169,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFA74B923A75FD100A301B3 /* ViewController.swift in Sources */,
+				C6B3260923AE9662006A1CFC /* StatusableViewController.swift in Sources */,
 				FAFA74B523A75FD100A301B3 /* AppDelegate.swift in Sources */,
 				FAFA74CE23A794BB00A301B3 /* ChatsViewControllerTableViewCell.swift in Sources */,
 				FAFA74D823A80AAC00A301B3 /* CallsTableViewController.swift in Sources */,
 				FAFA74B723A75FD100A301B3 /* SceneDelegate.swift in Sources */,
 				FAFA74DA23A8119E00A301B3 /* CallsTableViewCell.swift in Sources */,
+				C6A9219B21DAEAE500180FDC /* SettingsProfileCellTableViewCell.swift in Sources */,
+				C6A921C723AE650400180FDC /* ChatPageViewController.swift in Sources */,
+				C6CF816E23AB99D6008793C1 /* SettingTableViewCell.swift in Sources */,
 				FAFA74D223A79DC800A301B3 /* ChatsViewController.swift in Sources */,
 				FAFA74BF23A75FD100A301B3 /* Whatsapp_IOS.xcdatamodeld in Sources */,
+				C6CF816C23AB94A5008793C1 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

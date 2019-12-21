@@ -99,6 +99,13 @@ class ChatsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         return cell
     }
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+            let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let chatVC:UIViewController = storyboard.instantiateViewController(withIdentifier: "ChatPage")
+            //go to new screen in fullscreen
+            chatVC.modalPresentationStyle = .fullScreen
+            self.present(chatVC, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -134,5 +141,6 @@ class ChatsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let searchController = UISearchController(searchResultsController: nil)
         navigationItem.searchController = searchController
     }
-
+    
+    
 }
